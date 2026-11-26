@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Cheese CTF — Walkthrough"
 date: 2025-12-16 11:30:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [sqli, lfi, php-filters, ssh, systemd, suid, xxd]
 pin: false
 ---

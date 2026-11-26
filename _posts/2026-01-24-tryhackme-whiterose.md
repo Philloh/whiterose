@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Whiterose — Walkthrough"
 date: 2026-01-24 08:00:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [vhost, ssti, ejs, cve-2022-29078, cve-2023-22809, sudoedit]
 pin: false
 ---

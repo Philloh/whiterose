@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe The Sticker Shop — Walkthrough"
 date: 2026-02-22 09:15:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [xss, javascript, stolen-content, beginner]
 pin: false
 ---

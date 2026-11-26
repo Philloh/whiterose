@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe U.A. High School — Walkthrough"
 date: 2025-12-02 14:20:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [rce, steganography, steghide, sudo, arbitrary-write]
 pin: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Lo-Fi — Walkthrough"
 date: 2025-11-05 10:00:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [lfi, log-poisoning, rce, beginner]
 pin: false
 ---

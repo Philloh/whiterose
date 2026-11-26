@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Dodge — Walkthrough"
 date: 2026-03-12 17:30:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [subdomain-enumeration, ufw, ftp, ssh, port-forwarding, sudo, linux]
 pin: false
 ---

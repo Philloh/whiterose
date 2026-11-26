@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Lookup — Walkthrough"
 date: 2026-02-08 19:00:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [elfinder, cve-2019-9194, path-hijacking, suid, hydra, sudo]
 pin: false
 ---

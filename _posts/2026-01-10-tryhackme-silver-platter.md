@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Silver Platter — Walkthrough"
 date: 2026-01-10 16:45:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [silverpeas, cewl, brute-force, cve-2023-47323, privesc]
 pin: false
 ---

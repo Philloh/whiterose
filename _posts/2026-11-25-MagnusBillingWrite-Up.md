@@ -1,7 +1,7 @@
 ---
 title: "MagnusBilling — Writeup"
 date: 2026-11-25
-categories: [ctf, tryhackme]
+categories: [CTFs, TryHackMe]
 tags: [linux, web-exploitation, privilege-escalation]
 ---
 

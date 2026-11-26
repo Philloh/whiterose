@@ -1,7 +1,7 @@
 ---
 title: "Platform - Challenge Name"
 date: 2026-08-30 14:00:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [ssrf, python, rce]
 pin: false
 published: false

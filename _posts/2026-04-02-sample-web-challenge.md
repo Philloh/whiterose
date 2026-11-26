@@ -1,7 +1,7 @@
 ---
 title: "Sample CTF - SQL Injection 101"
 date: 2026-04-02 14:00:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [sqli, python, ssrf, docker, beginner, sample]
 ---
 

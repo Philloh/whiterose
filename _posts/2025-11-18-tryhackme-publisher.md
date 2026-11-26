@@ -1,7 +1,7 @@
 ---
 title: "TryHackMe Publisher — Walkthrough"
 date: 2025-11-18 13:00:00 +0300
-categories: [TryHackMe, Web]
+categories: [CTFs, TryHackMe]
 tags: [spip, cve-2023-27372, docker, apparmor, suid]
 pin: false
 ---
