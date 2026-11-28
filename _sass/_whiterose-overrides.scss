@@ -1,0 +1,242 @@
+:root[data-bs-theme='dark'] {
+  --main-bg: #0c1415;
+  --main-border-color: #243735;
+  --text-color: #c6d4cf;
+  --text-muted-color: #91a8a1;
+  --text-muted-highlight-color: #b4c8c1;
+  --heading-color: #e8f2ed;
+  --label-color: #a5b9b1;
+  --blockquote-border-color: #49766a;
+  --blockquote-text-color: #a9bbb4;
+  --link-color: #80dfbd;
+  --link-underline-color: #3d7565;
+  --button-bg: #142322;
+  --btn-border-color: #2a423d;
+  --btn-backtotop-border-color: #253a36;
+  --card-header-bg: #172725;
+  --img-bg: radial-gradient(circle, #132321 0%, #0e1718 100%);
+  --menu-bg: #13211f;
+  --menu-border-color: #29413b;
+  --menu-shadow-color: rgb(0 0 0 / 35%);
+  --menu-active-color: #e7f5ef;
+  --menu-highlight-bg: rgb(111 190 160 / 12%);
+  --site-title-color: #e7f3ee;
+  --site-subtitle-color: #9ab2a9;
+  --sidebar-bg: #101c1c;
+  --sidebar-border-color: #263a36;
+  --sidebar-muted-color: #a0b5ad;
+  --sidebar-active-color: #e4f5ed;
+  --sidebar-hover-bg: #1b302c;
+  --sidebar-btn-bg: #172724;
+  --sidebar-btn-color: #a3c5b6;
+  --avatar-border-color: #77c9a8;
+  --topbar-bg: rgb(12 20 21 / 92%);
+  --topbar-text-color: #e4f0eb;
+  --search-border-color: #30443f;
+  --search-icon-color: #91aaa1;
+  --input-focus-border-color: #80dfbd;
+  --post-list-text-color: #c6d4cf;
+  --btn-paginator-hover-color: #203632;
+  --toc-highlight: #80dfbd;
+  --toc-popup-border-color: #304942;
+  --tag-hover: #1b3730;
+  --tb-odd-bg: #13201f;
+  --tb-even-bg: #101b1b;
+  --tb-border-color: #263a36;
+  --card-bg: #132120;
+  --card-hover-bg: #24443a;
+  --card-shadow: 0 10px 28px rgb(0 0 0 / 18%);
+  --kbd-wrap-color: #48645a;
+  --kbd-text-color: #d9e8e1;
+  --kbd-bg-color: #182724;
+  --prompt-text-color: #d4e2dc;
+  --prompt-tip-bg: rgb(25 72 54 / 48%);
+  --prompt-tip-icon-color: #8bdb9a;
+  --prompt-info-bg: rgb(25 67 76 / 48%);
+  --prompt-info-icon-color: #83d8d0;
+  --prompt-warning-bg: rgb(87 65 28 / 48%);
+  --prompt-warning-icon-color: #edc27a;
+  --prompt-danger-bg: rgb(87 39 34 / 48%);
+  --prompt-danger-icon-color: #ee8d7c;
+  --tag-border: #35574d;
+  --tag-shadow: #12201c;
+  --dash-color: #3b514a;
+  --search-tag-bg: #1b2d29;
+  --categories-border: rgb(93 135 118 / 36%);
+  --categories-hover-bg: #1c302b;
+  --categories-icon-hover-color: #a1e2c4;
+  --timeline-node-bg: #80b89e;
+  --timeline-color: #3b514a;
+  --timeline-year-dot-color: #80dfbd;
+  --language-border-color: #2b443d;
+  --highlight-bg-color: #0c1717;
+  --highlighter-rouge-color: #c8ddd2;
+  --highlight-lineno-color: #829d92;
+  --inline-code-bg: rgb(128 223 189 / 10%);
+  --code-color: #c9e1d5;
+  --code-header-text-color: #a4b9af;
+  --code-header-muted-color: #38534a;
+  --code-header-icon-color: #91baa7;
+  --clipboard-checked-color: #80dfbd;
+  --filepath-text-color: #cde0d6;
+}
+
+#sidebar {
+  border-right: 1px solid var(--sidebar-border-color);
+  box-shadow: 8px 0 32px rgb(0 0 0 / 10%);
+}
+
+#sidebar .site-title {
+  letter-spacing: -0.035em;
+}
+
+#sidebar ul li.nav-item.active .nav-link {
+  box-shadow: inset 2px 0 0 #80dfbd;
+}
+
+#sidebar ul li.nav-item.active .nav-link i {
+  color: #80dfbd;
+}
+
+#sidebar #avatar {
+  box-shadow: 0 0 0 2px var(--avatar-border-color), 0 0 24px rgb(95 202 158 / 16%);
+}
+
+#topbar-wrapper {
+  border-bottom: 1px solid var(--main-border-color);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+
+#post-list .card-wrapper:not(:last-child) {
+  margin-bottom: 1.1rem;
+}
+
+#post-list .post-preview {
+  overflow: hidden;
+  border: 1px solid var(--main-border-color);
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--card-bg), #142522);
+  box-shadow: var(--card-shadow);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+#post-list .post-preview::before {
+  border-radius: inherit;
+  background: linear-gradient(115deg, rgb(108 207 165 / 13%), transparent 58%);
+}
+
+#post-list .post-preview:hover {
+  transform: translateY(-2px);
+  border-color: #42685b;
+  box-shadow: 0 16px 34px rgb(0 0 0 / 24%);
+}
+
+#post-list .post-preview:focus-visible,
+#sidebar a:focus-visible,
+#topbar button:focus-visible,
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #80dfbd;
+  outline-offset: 3px;
+}
+
+#post-list .card .card-body .card-title {
+  letter-spacing: -0.025em;
+  line-height: 1.28;
+}
+
+#post-list .card .card-body .post-meta {
+  color: #9ab5aa !important;
+}
+
+.journal-intro {
+  position: relative;
+  margin: 1.25rem 0 2rem;
+  padding: clamp(1.5rem, 4vw, 2.4rem);
+  overflow: hidden;
+  border: 1px solid #2a453d;
+  border-radius: 16px;
+  background:
+    radial-gradient(ellipse at 90% 0%, rgb(67 139 105 / 18%), transparent 48%),
+    linear-gradient(135deg, #132220 0%, #101a1a 72%);
+  box-shadow: 0 14px 36px rgb(0 0 0 / 15%);
+}
+
+.journal-intro__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 1rem;
+  color: #e4bc78;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.journal-intro__eyebrow::before {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: #80dfbd;
+  box-shadow: 0 0 12px rgb(128 223 189 / 65%);
+  content: "";
+}
+
+.journal-intro__copy {
+  max-width: 40rem;
+  margin: 1rem 0 0;
+  color: #a7bbb3;
+  font-size: 1.04rem;
+  line-height: 1.65;
+}
+
+.journal-intro__topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.4rem;
+}
+
+.journal-intro__topics span {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #34534a;
+  border-radius: 999px;
+  background: rgb(17 36 31 / 74%);
+  color: #c3d7ce;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.content h2 {
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+.highlight,
+figure.highlight,
+div[class^='language-'] {
+  border: 1px solid var(--language-border-color);
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgb(0 0 0 / 18%);
+}
+
+.code-header {
+  border-bottom: 1px solid var(--language-border-color);
+}
+
+code.highlighter-rouge {
+  border: 1px solid rgb(128 223 189 / 9%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #post-list .post-preview {
+    transition: none;
+  }
+
+  #post-list .post-preview:hover {
+    transform: none;
+  }
+}
